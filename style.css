@@ -1,0 +1,169 @@
+html {
+    font-family: 'Noto Serif Makasar', serif;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F3F5;
+}
+
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+#barraNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #302b27;
+    margin: 0;
+    width: 100%;
+    color: aliceblue;
+    align-items: center;
+}
+
+#barraNav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+#barraNav ul li {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#marca {
+    text-align: center;
+    margin: 0;
+}
+
+#marca a {
+    text-decoration: none;
+}
+
+#marca li {
+    justify-content: left;
+    font-size: 25px;
+}
+
+#links li a:hover {
+        transition: color 0.3s ease;
+        color: #6a80bf;
+}
+
+/* #links a {
+    text-decoration: none;
+} */
+
+#title {
+    font-family: 'Special Elite', cursive;;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    margin-top: 5px;
+    font-family: 'Special Elite', cursive;;
+    text-align: center;
+}
+
+img {
+    max-width: 350px;
+}
+
+.cont {
+    width: auto;
+    height: auto;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    /* border: 1px dotted red; */
+}
+
+.container {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1 fr); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section article {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 350px;
+    margin: 15px 10px 15px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.toph2 {
+    padding-top: 15px;
+}
+
+.buttomp {
+    padding-bottom: 15px;
+}
+
+section article:hover {
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0 0 7px #576CA8;
+}
+      
+footer {
+    background-color: #302b27;
+    padding: 2rem;
+    color: #F5F3F5;
+}
+
+footer ol p {
+    margin: 0;
+}
+
+footer ol { 
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+footer ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ol li {
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+
+
+footer ol {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+a {
+    color: #F5F3F5;
+}
+
+footer a:hover {
+    transition: color 0.3s ease;
+    color: #576CA8;
+}
